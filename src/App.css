@@ -1,0 +1,57 @@
+.app {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.secret-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.otp-section {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+}
+
+.otp-code {
+  font-size: 32px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 15px;
+  letter-spacing: 4px;
+}
+
+.timer {
+  position: relative;
+  background: #e9ecef;
+  height: 8px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.timer-bar {
+  height: 100%;
+  background: #28a745;
+  border-radius: 4px;
+  transition: width 1s linear;
+}
+
+.timer span {
+  font-size: 14px;
+  color: #666;
+}
