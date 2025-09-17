@@ -83,7 +83,7 @@ function App() {
       <h1>OTP Authenticator</h1>
       <div className="input-section">
         <input
-          type="text"
+          type="password"
           placeholder="Enter secret key"
           value={secret}
           onChange={(e) => setSecret(e.target.value)}
